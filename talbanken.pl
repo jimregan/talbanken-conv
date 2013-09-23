@@ -90,14 +90,15 @@ sub handle_end {
 			$outtags = $mappings{$msd};
 		} else {
 			print STDERR "Error: missing mapping ($msd)\n";
+			$outtags = '*';
 		}
 
 		if ($outtags eq '*') {
-			print "^*$surface\$ ";
-		elsif (substr($outtags,0,1) ne '<') {
-			print "^$surface/${outtags}\$ ";
+			print "^*$surface\$\n";
+		} elsif (substr($outtags,0,1) ne '<') {
+			print "^$surface/${outtags}\$\n";
 		} else {
-			print "^$surface/$lemma${outtags}\$ ";
+			print "^$surface/$lemma${outtags}\$\n";
 		}
 
 		# Reset
@@ -106,5 +107,8 @@ sub handle_end {
 		$suffix = "";
 		$prefix = "";
 		%attribs = ();
+	}
+	if ($element eq 'sentence') {
+		print "\n";
 	}
 }
