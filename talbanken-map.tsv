@@ -150,3 +150,20 @@ tills	SN	<cnjadv>
 två	RG.SMS	<num><un><pl>
 tre	RG.SMS	<num><un><pl>
 	RG.UTR.SIN.IND.NOM	<num><ut><sg>
+	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><nt><sg><ind>
+akut	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+lätt	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+privat	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+konkret	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+direkt	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+kort	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+intressant	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+sällsynt	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+fast	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+absolut	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+rätt	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+perfekt	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+ogift	JJ.POS.NEU.SIN.IND.NOM	<adj><pst><un><sg><ind>
+annan	JJ.POS.NEU.SIN.IND.NOM	<prn><ind><nt><sg><nom>
+som	HP.-.-.-	<prn><rel><un><sp><nom>
+vilken	HD.UTR.SIN.IND	<prn><rel><ut><sg><nom>
