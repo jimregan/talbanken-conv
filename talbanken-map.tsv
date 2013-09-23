@@ -1,0 +1,18 @@
+# 3 tabs:
+# 1. lemma, if divergent (leave empty otherwise)
+# 2. talbanken 'msd' attribute
+# 3. sv-da tags. Use '*' for unknown; if first character != '<', outputs verbatim, otherwise uses col. 1 if != '', else @lemma
+straff	NN.NEU.SIN.IND.NOM	<n><nt><sp><ind><nom>
+	NN.UTR.SIN.IND.NOM	<n><ut><sg><ind><nom>
+	PP	<pr>
+.	MAD	<sent>
+	VB.PRS.AKT	<vblex><pres><actv>
+en	DT.UTR.SIN.DEF	den<det><def><ut><sg>
+obligatorisk	JJ.POS.UTR+NEU.SIN.DEF.NOM	<adj><pst><un><sp><def>
+	NN.UTR.SIN.DEF.NOM	<n><ut><sg><def><nom>
+	VB.PRS.SFO	<vblex><pres><pasv>
+	VB.PRS.AKT	<vblex><pres><actv>
+	AB	<adv>
+åtskilja	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	*
+en	DT.UTR+NEU.PLU.DEF	den<det><def><un><pl>
+ha	VB.INF.AKT	<vbhaver><inf><actv>
