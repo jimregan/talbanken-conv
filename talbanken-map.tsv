@@ -4,15 +4,31 @@
 # 3. sv-da tags. Use '*' for unknown; if first character != '<', outputs verbatim, otherwise uses col. 1 if != '', else @lemma
 straff	NN.NEU.SIN.IND.NOM	<n><nt><sp><ind><nom>
 	NN.UTR.SIN.IND.NOM	<n><ut><sg><ind><nom>
+	NN.UTR.SIN.DEF.NOM	<n><ut><sg><def><nom>
+	NN.NEU.SIN.IND.NOM	<n><nt><sg><ind><nom>
+	NN.NEU.SIN.DEF.NOM	<n><nt><sg><def><nom>
+	NN.UTR.PLU.IND.NOM	<n><ut><pl><ind><nom>
+	NN.UTR.PLU.DEF.NOM	<n><ut><pl><def><nom>
+	NN.NEU.PLU.IND.NOM	<n><nt><pl><ind><nom>
+	NN.NEU.PLU.DEF.NOM	<n><nt><pl><def><nom>
+	VB.PRS.AKT	<vblex><pres><actv>
+	VB.PRS.SFO	<vblex><pres><pasv>
+	VB.INF.AKT	<vblex><inf><actv>
+	VB.SUP.AKT	<vblex><supn><actv>
+ha	VB.PRS.AKT	<vbhaver><pres><actv>
+ha	VB.INF.AKT	<vbhaver><inf><actv>
+ha	VB.SUP.AKT	<vbhaver><supn><actv>
+ha	VB.PRT.AKT	<vbhaver><past><actv>
 	PP	<pr>
 .	MAD	<sent>
-	VB.PRS.AKT	<vblex><pres><actv>
 en	DT.UTR.SIN.DEF	den<det><def><ut><sg>
+en	DT.UTR+NEU.PLU.DEF	den<det><def><un><pl>
+en	DT.UTR.SIN.IND	en<det><ind><ut><sg>
 obligatorisk	JJ.POS.UTR+NEU.SIN.DEF.NOM	<adj><pst><un><sp><def>
-	NN.UTR.SIN.DEF.NOM	<n><ut><sg><def><nom>
-	VB.PRS.SFO	<vblex><pres><pasv>
-	VB.PRS.AKT	<vblex><pres><actv>
 	AB	<adv>
 åtskilja	PC.PRF.UTR+NEU.PLU.IND+DEF.NOM	*
-en	DT.UTR+NEU.PLU.DEF	den<det><def><un><pl>
-ha	VB.INF.AKT	<vbhaver><inf><actv>
+båda	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	<prn><def><un><pl><nom>
+,	MID	<cm>
+man	PN.UTR.SIN.IND.SUB	<prn><pers><p3><ut><sg><nom>
+	KN	<cnjcoo>
+om	SN	<cnjadv>
