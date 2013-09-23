@@ -1,8 +1,4 @@
 #Lemma	MSD	sv-da
-# 3 tabs:
-# 1. lemma, if divergent (leave empty otherwise)
-# 2. talbanken 'msd' attribute
-# 3. sv-da tags. Use '*' for unknown; if first character != '<', outputs verbatim, otherwise uses col. 1 if != '', else @lemma
 straff	NN.NEU.SIN.IND.NOM	<n><nt><sp><ind><nom>
 	NN.UTR.SIN.IND.NOM	<n><ut><sg><ind><nom>
 	NN.UTR.SIN.DEF.NOM	<n><ut><sg><def><nom>
@@ -43,7 +39,6 @@ båda	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	<prn><def><un><pl><nom>
 man	PN.UTR.SIN.IND.SUB	<prn><pers><p3><ut><sg><nom>
 	KN	<cnjcoo>
 om	SN	<cnjadv>
-# np.top is the most common mapping for PM, everything else is an exception
 	PM.GEN	<np><top><sg><gen>
 	PM.NOM	<np><top><sg><nom>
 	PM.SMS	<np><top><sg><gen>
@@ -74,7 +69,6 @@ Ohlsson	PM.GEN	<np><cog><mf><sg><gen>
 Svensson	PM.NOM	<np><cog><mf><sg><nom>
 Svensson	PM.GEN	<np><cog><mf><sg><gen>
 	PN.MAS.SIN.DEF.SUB+OBJ	<prn><dem><m><sg><nom>
-#??
 den	PN.NEU.SIN.DEF.SUB+OBJ	<prn><pers><p3><nt><sg><acc>
 denna	PN.NEU.SIN.DEF.SUB+OBJ	<prn><dem><nt><sg><nom>
 (	PAD	<lpar>
