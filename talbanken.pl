@@ -75,6 +75,14 @@ sub handle_end {
 		} else {
 			$lemma =~ s/^\|//;
 			$lemma =~ s/\|$//;
+			# dependency shit
+			$lemma =~ s/:[0-9]*//g;
+			if ($lemma =~ /\|/) {
+				my @lemtmp = split/\|/, $lemma;
+				if (exists $mappings{"$lemma/$msd"}) {
+					$lemma = $lemtmp[0];
+				}
+			}		
 		}
 		if (exists $mappings{"$lemma/$msd"}) {
 			$outtags = $mappings{"$lemma/$msd"};
