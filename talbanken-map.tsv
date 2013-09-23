@@ -20,7 +20,7 @@ ha	VB.INF.AKT	<vbhaver><inf><actv>
 ha	VB.SUP.AKT	<vbhaver><supn><actv>
 ha	VB.PRT.AKT	<vbhaver><past><actv>
 	PP	<pr>
-.	MAD	<sent>
+	MAD	<sent>
 en	DT.UTR.SIN.DEF	den<det><def><ut><sg>
 en	DT.UTR+NEU.PLU.DEF	den<det><def><un><pl>
 en	DT.UTR.SIN.IND	en<det><ind><ut><sg>
@@ -36,30 +36,36 @@ om	SN	<cnjadv>
 	PM.GEN	<np><top><sg><gen>
 	PM.NOM	<np><top><sg><nom>
 	PM.SMS	<np><top><sg><gen>
-
 Andersson	PM.NOM	<np><cog><mf><sg><nom>
-Andersson	PM.NOM	<np><cog><mf><sg><nom>
+Andersson	PM.GEN	<np><cog><mf><sg><gen>
 Bengtsson	PM.NOM	<np><cog><mf><sg><nom>
-Bengtsson	PM.NOM	<np><cog><mf><sg><nom>
+Bengtsson	PM.GEN	<np><cog><mf><sg><gen>
 Ericsson	PM.NOM	<np><cog><mf><sg><nom>
-Ericsson	PM.NOM	<np><cog><mf><sg><nom>
+Ericsson	PM.GEN	<np><cog><mf><sg><gen>
 Eriksson	PM.NOM	<np><cog><mf><sg><nom>
-Eriksson	PM.NOM	<np><cog><mf><sg><nom>
+Eriksson	PM.GEN	<np><cog><mf><sg><gen>
 Gustafsson	PM.NOM	<np><cog><mf><sg><nom>
-Gustafsson	PM.NOM	<np><cog><mf><sg><nom>
+Gustafsson	PM.GEN	<np><cog><mf><sg><gen>
 Håkansson	PM.NOM	<np><cog><mf><sg><nom>
-Håkansson	PM.NOM	<np><cog><mf><sg><nom>
+Håkansson	PM.GEN	<np><cog><mf><sg><gen>
 Johansson	PM.NOM	<np><cog><mf><sg><nom>
-Johansson	PM.NOM	<np><cog><mf><sg><nom>
+Johansson	PM.GEN	<np><cog><mf><sg><gen>
 Jonsson	PM.NOM	<np><cog><mf><sg><nom>
-Jonsson	PM.NOM	<np><cog><mf><sg><nom>
+Jonsson	PM.GEN	<np><cog><mf><sg><gen>
 Jönsson	PM.NOM	<np><cog><mf><sg><nom>
-Jönsson	PM.NOM	<np><cog><mf><sg><nom>
+Jönsson	PM.GEN	<np><cog><mf><sg><gen>
 Larsson	PM.NOM	<np><cog><mf><sg><nom>
-Larsson	PM.NOM	<np><cog><mf><sg><nom>
+Larsson	PM.GEN	<np><cog><mf><sg><gen>
 Nilsson	PM.NOM	<np><cog><mf><sg><nom>
-Nilsson	PM.NOM	<np><cog><mf><sg><nom>
+Nilsson	PM.GEN	<np><cog><mf><sg><gen>
 Ohlsson	PM.NOM	<np><cog><mf><sg><nom>
-Ohlsson	PM.NOM	<np><cog><mf><sg><nom>
+Ohlsson	PM.GEN	<np><cog><mf><sg><gen>
 Svensson	PM.NOM	<np><cog><mf><sg><nom>
-Svensson	PM.NOM	<np><cog><mf><sg><nom>
+Svensson	PM.GEN	<np><cog><mf><sg><gen>
+	PN.MAS.SIN.DEF.SUB+OBJ	<prn><dem><m><sg><nom>
+#??
+den	PN.NEU.SIN.DEF.SUB+OBJ	<prn><pers><p3><nt><sg><acc>
+denna	PN.NEU.SIN.DEF.SUB+OBJ	<prn><dem><nt><sg><nom>
+(	PAD	lpar
+)	PAD	rpar
+'	PAD	apos
