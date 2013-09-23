@@ -32,3 +32,34 @@ båda	JJ.POS.UTR+NEU.PLU.IND+DEF.NOM	<prn><def><un><pl><nom>
 man	PN.UTR.SIN.IND.SUB	<prn><pers><p3><ut><sg><nom>
 	KN	<cnjcoo>
 om	SN	<cnjadv>
+# np.top is the most common mapping for PM, everything else is an exception
+	PM.GEN	<np><top><sg><gen>
+	PM.NOM	<np><top><sg><nom>
+	PM.SMS	<np><top><sg><gen>
+
+Andersson	PM.NOM	<np><cog><mf><sg><nom>
+Andersson	PM.NOM	<np><cog><mf><sg><nom>
+Bengtsson	PM.NOM	<np><cog><mf><sg><nom>
+Bengtsson	PM.NOM	<np><cog><mf><sg><nom>
+Ericsson	PM.NOM	<np><cog><mf><sg><nom>
+Ericsson	PM.NOM	<np><cog><mf><sg><nom>
+Eriksson	PM.NOM	<np><cog><mf><sg><nom>
+Eriksson	PM.NOM	<np><cog><mf><sg><nom>
+Gustafsson	PM.NOM	<np><cog><mf><sg><nom>
+Gustafsson	PM.NOM	<np><cog><mf><sg><nom>
+Håkansson	PM.NOM	<np><cog><mf><sg><nom>
+Håkansson	PM.NOM	<np><cog><mf><sg><nom>
+Johansson	PM.NOM	<np><cog><mf><sg><nom>
+Johansson	PM.NOM	<np><cog><mf><sg><nom>
+Jonsson	PM.NOM	<np><cog><mf><sg><nom>
+Jonsson	PM.NOM	<np><cog><mf><sg><nom>
+Jönsson	PM.NOM	<np><cog><mf><sg><nom>
+Jönsson	PM.NOM	<np><cog><mf><sg><nom>
+Larsson	PM.NOM	<np><cog><mf><sg><nom>
+Larsson	PM.NOM	<np><cog><mf><sg><nom>
+Nilsson	PM.NOM	<np><cog><mf><sg><nom>
+Nilsson	PM.NOM	<np><cog><mf><sg><nom>
+Ohlsson	PM.NOM	<np><cog><mf><sg><nom>
+Ohlsson	PM.NOM	<np><cog><mf><sg><nom>
+Svensson	PM.NOM	<np><cog><mf><sg><nom>
+Svensson	PM.NOM	<np><cog><mf><sg><nom>
