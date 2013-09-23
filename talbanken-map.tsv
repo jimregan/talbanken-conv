@@ -1,3 +1,4 @@
+#Lemma	MSD	sv-da
 # 3 tabs:
 # 1. lemma, if divergent (leave empty otherwise)
 # 2. talbanken 'msd' attribute
@@ -76,9 +77,9 @@ Svensson	PM.GEN	<np><cog><mf><sg><gen>
 #??
 den	PN.NEU.SIN.DEF.SUB+OBJ	<prn><pers><p3><nt><sg><acc>
 denna	PN.NEU.SIN.DEF.SUB+OBJ	<prn><dem><nt><sg><nom>
-(	PAD	lpar
-)	PAD	rpar
-'	PAD	apos
+(	PAD	<lpar>
+)	PAD	<rpar>
+'	PAD	<apos>
 av	PL	<pr>
 bort	PL	<adv>
 efter	PL	<pr>
