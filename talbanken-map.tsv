@@ -11,14 +11,24 @@ straff	NN.NEU.SIN.IND.NOM	<n><nt><sp><ind><nom>
 	NN.UTR.PLU.DEF.NOM	<n><ut><pl><def><nom>
 	NN.NEU.PLU.IND.NOM	<n><nt><pl><ind><nom>
 	NN.NEU.PLU.DEF.NOM	<n><nt><pl><def><nom>
+	VB.IMP.AKT	<vblex><imp>
+	VB.INF.AKT	<vblex><inf><actv>
+	VB.INF.SFO	<vblex><inf><pasv>
 	VB.PRS.AKT	<vblex><pres><actv>
 	VB.PRS.SFO	<vblex><pres><pasv>
-	VB.INF.AKT	<vblex><inf><actv>
+	VB.PRT.AKT	<vblex><past><actv>
+	VB.PRT.SFO	<vblex><pres><pasv>
 	VB.SUP.AKT	<vblex><supn><actv>
+	VB.SUP.SFO	<vblex><supn><pasv>
 ha	VB.PRS.AKT	<vbhaver><pres><actv>
 ha	VB.INF.AKT	<vbhaver><inf><actv>
 ha	VB.SUP.AKT	<vbhaver><supn><actv>
 ha	VB.PRT.AKT	<vbhaver><past><actv>
+ha	VB.IMP.AKT	<vbhaver><imp>
+vara	VB.PRS.AKT	<vbser><pres><actv>
+vara	VB.INF.AKT	<vbser><inf><actv>
+vara	VB.PRT.AKT	<vbser><past><actv>
+vara	VB.SUP.AKT	<vbser><supn><actv>
 	PP	<pr>
 	MAD	<sent>
 en	DT.UTR.SIN.DEF	den<det><def><ut><sg>
