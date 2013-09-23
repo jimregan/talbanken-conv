@@ -102,3 +102,9 @@ ut	PL	<pr>
 an	PL	<adv>
 igång	PL	<adv>
 	RG.NOM	<num>
+	AB.AN	<abbr>
+	AB.KOM	<adv><comp>
+mycket|mera	AB.KOM	mera<adv>
+lite|föga	AB.KOM	lite<adv><comp>
+längre	AB.KOM	<adv>
+senare	AB.KOM	<adv>
